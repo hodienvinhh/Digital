@@ -1,0 +1,27 @@
+@media(min-width : 768px )and (max-width:991px){
+    .navbar-list a{  
+        margin: 50px;
+        text-decoration: none;
+        color: black;   
+      }
+     .certificate-info img{
+        width: 100%;
+        height: auto;
+     }
+     /* .grid{
+      display:column;
+      columns: 2;
+     }
+
+   
+     @supports(grid-template-rows: masonry){
+      .grid {
+         display: grid;
+         grid-template-rows: masonry;
+         grid-template-columns: repeat(2, 1fr);
+       }
+
+     } */
+    
+  
+}

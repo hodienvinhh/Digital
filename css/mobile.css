@@ -1,0 +1,26 @@
+@media(max-width : 767px){
+    .nav-bar a{
+        display: block;
+        margin: 25px;
+    }
+    .navbar-list{
+        margin-right: 220px;
+    } 
+    .certificate-prize{
+       padding: 10px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .certificate-info{
+        display: block;
+      }
+    .text-hide{
+        display: none;
+    }  
+  
+
+
+   
+}

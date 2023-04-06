@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+   box-sizing: border-box;
+}
+
+.section-title{
+    font-size: 30px;
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-image: url('../images/banner.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.banner-fullname{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #fff;
+}
+/* nav-bar */
+.nav-bar{
+    display: flex;
+    position: relative; 
+    background-color: rgb(247, 242, 242);
+    padding: 10px;
+    justify-content: center;
+   
+}
+.info{
+    display: none;
+    list-style: none;
+}
+.navbar-list a{  
+  margin: 80px;
+  text-decoration: none;
+  color: black; 
+  
+}
+.navbar-list i{
+    color: #2b96ee;
+}
+.nav-bar img{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    border: 1px ridge ;
+    border-radius: 50% ; 
+    border: 5px solid white;
+    transform: translateX(-50%);
+    
+}
+.navbar-list{
+    justify-content:center;
+}
+
+.personal-info{
+    padding: 30px 30px;
+    background-color: #f0f0f0;
+}
+
+#personal-info li{
+  margin-bottom: 10px;
+  list-style: none;
+}
+.section-title{
+    padding-bottom: 30px;
+}
+.icon-information a{
+    color: #199cdb;  
+}
+.target{
+   padding: 30px 50px;
+   background-color: #f5f5f5;    
+}
+/* infomation */
+
+.projected-icon mark{   
+    padding: 5px;
+    background-color: #29a5df;
+    color: black;
+    border-radius: 15px;  
+}
+.job-imfomation {
+    min-height: 150px;
+    position: relative;
+    border: 1px solid rgb(230, 223, 223);  
+    background-color: #fff;
+    
+}
+.info-icon i{
+    position: absolute;
+    right: 0px;
+    top: 18px;   
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(248, 162, 33);   
+}
+.job-imfomation div{
+    padding: 20px;
+}
+.activity{ 
+    display: flex;   
+    list-style: none;
+    font-size: 16px;
+    justify-content: space-around;   
+}
+.icon{ 
+   position: relative; 
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   gap: 10px;
+   list-style: none;
+}
+.icon div{  
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: 8px;
+    border: 1px solid rgb(46, 153, 241);
+    color: rgb(36, 65, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    position: absolute;  
+}
+
+.job-imfomation span{
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+/* Chứng chỉ và giải thưởng */
+
+.certificate-info{
+    display: flex;  
+    padding: 20px;
+     border-bottom: 1px solid #d6c08d;
+}
+.certificate-prize{
+    border-right: 1px solid #d6c08d  
+}
+
+.certificate-info div{
+    width: 100%;
+}
+
+/* project */
+.projected-title{
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(231, 225, 225);
+    
+}
+.projected-icon{
+    display: flex;
+    padding: 15px;
+    background-color: white;
+    justify-content: space-around;
+    border: 1px solid rgb(231, 225, 225);      
+}
+
+.projected-info{
+    display: flex;
+    padding: 5px;
+    border: 1px solid rgb(216, 210, 210);
+    background-color: white;
+      
+}
+ .projected-info p{
+    min-width: 30%;
+    justify-content: space-between;  
+}
+
+/* Footer */
+.footer-link{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    justify-items: center;    
+}
+.footer-link i{
+    color: rgb(30, 98, 235);
+    font-size: 30px; 
+}
+.footer-link a{ 
+   padding: 20px; 
+}
+.more-info:link, .more-info:visited{
+    color:#333;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.more-info:hover, .more-info:active{
+    text-decoration: none;
+    color: #2f6ee2;
+}
+
+.info-hidden{
+    display: none;
+} 
+.btnviewmore{
+    display: none;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0e8c8;   
+}
+
+.job-imfomation:hover .btnviewmore{
+   display: block;
+   cursor: pointer;
+}
+
+
+
+
